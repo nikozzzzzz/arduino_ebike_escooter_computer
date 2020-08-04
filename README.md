@@ -16,13 +16,13 @@ If you dont plan to read temperature, just comment all code regarding 18B20 sens
 If you plan to measure more than 7 battery cells, you will need more wires, more precision resistors. 74HC4067 has 16 inputs, so obviously you cant have more than 16 batteries measured by one IC. But you can connect more ICs and add code :)
 
 
-#Setup
+# Setup
 1. Different LCDs have different working drivers and addresses
 2. Google your LCD, addreses and drivers they use.
 3. Import your driver to the project. In my case it was hd44780.h, if yours is the same, leave it the way it is.
 4. Connect all the stuff together
 
-#Connections: Arduino Pins
+# Connections: Arduino Pins
 Digital 0: empty
 Digital 1: empty
 Digital 2: temperature sensor middle leg
@@ -50,12 +50,12 @@ Temp sensor: connect a 5-10K resistor from middle leg to right leg. Connect righ
 
 Everything is powered from 5v: Arduino, Display, Multiplexer, Temp sensor.
 
-#Troubleshooting
+# Troubleshooting
 No image on screen - use the potentiometer on back of the screen to adjust contrast
 No temp data - check sensor connection, use a 5K resistor
 Phantom readings on analog pins - its ok if you have them hanging free in air or nothing connected.
 
-#Questions, feedback
+# Questions, feedback
 If you have any questions and feedback, feel free to contact me nikozzzzzz@gmail.com or telegram at @nikozzzzzz
 
 
