@@ -58,9 +58,13 @@ Phantom readings on analog pins - its ok if you have them hanging free in air or
 # Questions, feedback
 If you have any questions and feedback, feel free to contact me nikozzzzzz@gmail.com or telegram at @nikozzzzzz
 
-
-
-
+# Important
+// A lot of code on 74HC5067 multiplxer was taken from  https://www.instructables.com/id/Tutorial-74HC4067-16-Channel-Analog-Multiplexer-De/
+// Including comments. Why write your own comments if someone has already done a prettey good explanatory job
+// Written by https://www.instructables.com/member/pmdwayhk/
+// A lot of temperature sensor code was taken from https://arduinomaster.ru/datchiki-arduino/arduino-ds18b20/ some varibles renamed, comments translated RU -> EN
+// connect 74HC4067 S0~S3 to Arduino D7~D4 respectively
+// connect 74HC4067 pin 1 to Arduino A0
 
 
 
